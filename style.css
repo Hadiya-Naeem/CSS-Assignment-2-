@@ -39,12 +39,19 @@ h1 {
     right: 20px;
     top: 10px;
     border: none;
-    background-color: rgb(232, 106, 48);
+    background-color: #e86a30;
     border-radius: 20px;
     padding: 18px;
     color: white;
+    
 }
-
+.button:hover{
+    cursor: pointer;
+}
+.button:active{
+    background-color:#993d13;
+    border: 2px solid black;
+}
 .atag {
     text-decoration: none;
     color: black;
